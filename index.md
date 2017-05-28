@@ -30,7 +30,7 @@ L.tileLayer('//cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
 </html>
 ```
 
-# 35度135度にマーカーを表示
+## 35度135度にマーカーを表示
 
 <iframe width="100%" frameborder="0" src="html/marker.html"></iframe>
 
