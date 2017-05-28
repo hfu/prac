@@ -12,16 +12,16 @@
 <script src="//unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
 </head>
 <body>
-</head>
-<body>
 <div id="map"></div>
 <script>
 var map = L.map('map');
 L.tileLayer('//cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
   attribution: "<a href='//maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 }).addTo(map);
-map.setView([35, 135], 5);
+console.log('b');
+map.setView([35, 135], 15);
+</script>
 </body>
 </html>
 ```
-<iframe></iframe>
+<iframe src="html/35135.html"></iframe>
