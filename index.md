@@ -19,13 +19,12 @@
 <body>
 <div id="map"></div>
 <script>
-var map = L.map('map');
+var map = L.map('map').setView([35, 135], 15);
 var attr = "<a href='//maps.gsi.go.jp/development/ichiran.html'" +
   "target='_blank'>地理院タイル</a>";
 L.tileLayer('//cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
   attribution: attr
 }).addTo(map);
-map.setView([35, 135], 15);
 </script>
 </body>
 </html>
