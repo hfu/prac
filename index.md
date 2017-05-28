@@ -3,7 +3,7 @@
 
 <iframe width="100%" frameborder="0" src="html/35135.html"></iframe>
 
-```ruby
+```html
 <!doctype html>
 <html>
 <head>
