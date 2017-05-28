@@ -1,7 +1,27 @@
 # 地理院タイル Leaflet 実践編
-## 北緯35度、東経135度を中心とする地図を表示する
+## 北緯35度、東経135度の地図を表示
 ```ruby
+<!doctype html>
 <html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"/>
+<style>
+  body {padding: 0; margin: 0}
+  html, body, #map {height: 100%; width: 100%;}
+</style>
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+</head>
+<body>
+</head>
+<body>
+<div id="map"></div>
+<script>
+var map = L.map('map');
+L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+  attribution: "<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
+}).addTo(map);
+map.setView([35, 135], 5);
+</body>
 </html>
 ```
 <iframe></iframe>
