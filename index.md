@@ -1,5 +1,8 @@
 # 地理院タイル Leaflet 実践編
 ## 北緯35度、東経135度の地図を表示
+
+<iframe width="100%" src="html/35135.html"></iframe>
+
 ```ruby
 <!doctype html>
 <html>
@@ -24,4 +27,3 @@ map.setView([35, 135], 15);
 </body>
 </html>
 ```
-<iframe src="html/35135.html"></iframe>
