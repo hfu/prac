@@ -1,7 +1,7 @@
 # 地理院タイル Leaflet 実践編
 ## 北緯35度、東経135度の地図を表示
 
-<iframe width="100%" frameborder="0" src="html/35135.html"></iframe>
+<iframe width="100%" height="400px" frameborder="0" src="html/35135.html"></iframe>
 
 ```html
 <!doctype html>
@@ -32,7 +32,7 @@ L.tileLayer('//cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
 
 ## 35度135度にマーカーを表示
 
-<iframe width="100%" frameborder="0" src="html/marker.html"></iframe>
+<iframe width="100%" height="400px" frameborder="0" src="html/marker.html"></iframe>
 
 ```html
 <!doctype html>
