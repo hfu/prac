@@ -1,4 +1,3 @@
-# 地理院タイル Leaflet 実践編
 ## 北緯35度、東経135度の地図を表示
 
 <iframe width="100%" height="400px" frameborder="0" src="html/35135.html"></iframe>
